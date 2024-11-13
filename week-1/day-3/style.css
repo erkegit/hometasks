@@ -262,3 +262,119 @@ nav{
     opacity: 70%;
     margin-bottom: 33px;
 }
+
+.contact{
+    display: block;
+    padding: 100px 50px 100px 50px;
+}
+
+.subs{
+    width: 1326px;
+    height: 387px;
+    display: flex;
+    gap: 76px;
+    background-color: #000;
+    border-radius: 26px;
+    padding: 59px 60px 36px 60px;
+}
+
+.left1{
+    display: block;
+    width: 642px;
+
+}
+
+.left1 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: "DM Sans", sans-serif;
+    color:#118DA8;   
+}
+
+.left1 h2{
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+}
+
+.right1{
+    display: flex;
+    width: 522px;
+    flex-wrap: wrap;
+}
+
+.right1 input{
+    flex: 0 0 522px;
+    height: 82px;
+    background-color: #191919;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding-left: 19px;
+}
+
+.right1 input::placeholder{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    opacity: 70%;
+}
+
+.right1 button{
+    width: 87px;
+    height: 48px;
+    border: none;
+    background-color: #118DA8;
+    border-radius: 6px;
+}
+
+.right1 button h1{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 28.8px;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    opacity: 70%;
+}
+
+.raites{
+    display: flex;
+    gap: 100px 50px 100px 50px;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 200px;
+}
+
+.raite{
+    display: block;
+    flex: 0 0 423px;
+    height: 321px;
+    background-color: #000;
+    border-radius: 32px;
+    padding: 59px 60px 36px 60px;
+}
+
+.raite h1{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.2px;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    margin-top: 21px;
+}
+
+.raite h5{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    opacity: 70%;
+    margin-top: 19px;
+}
