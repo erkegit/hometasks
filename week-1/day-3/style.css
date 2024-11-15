@@ -369,6 +369,10 @@ nav{
     margin-top: 21px;
 }
 
+.raite:nth-child(6) h1{
+    margin-top: 8px;
+}
+
 .raite h5{
     font-weight: 400;
     font-size: 24px;
@@ -377,4 +381,60 @@ nav{
     color: white;
     opacity: 70%;
     margin-top: 19px;
+}
+
+.raite:nth-child(6) h5{
+    margin-top: 10px;
+}
+
+footer{
+    display: flex;
+    margin-top: 90px;
+    gap: 16px;
+    padding: 99.88px 50px 116.12px;
+}
+
+.left2{
+    display: block;
+    width: 447.14px !important;
+    height: 222px !important;
+
+}
+
+.left2 img{
+    margin-bottom: 23px;
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+}
+
+.nav{
+    display: flex;
+    gap: 16px;
+}
+
+.menu1{
+    display: block !important;
+    list-style-type: none;
+    width: 178.84px;
+    height: 222px;
+}
+
+.menu1 li {
+    margin-bottom: 10px;
+}
+
+.menu1 a {
+    color: white !important;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.menu1 a:hover {
+    color: #118DA8 !important;
 }
