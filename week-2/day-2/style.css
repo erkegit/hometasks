@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+  background: #E1EDE6;
+  padding: 33px 165px 33px 165px;
+}
+
+nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.bottom{
+  background: #E1EDE6;
+  display: flex;
+  gap: 20px;
+}
+
+.burger {
+  background-color: #E1EDE6;
+  height: 23px;
+  z-index: 234532345;
+  width: 22px;
+  display: none;
+  cursor: pointer;
+}
+
+.burger span {
+  display: block;
+  height: 2px;
+  width: 20px;
+  background: #4C5866;
+  margin-top: 5px;
+  border-radius: 1px;
+  transition: 0.3s;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.menu li {
+  margin: 0;
+}
+
+.menu a {
+  color: #2C2D35;
+  text-decoration: none;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 320px) {
+    header {
+        background: #fff;
+        padding: 0px;
+    }
+  
+    .burger {
+        display: block;
+        margin-left: 5px;
+    }
+  
+    nav {
+        display: block;
+    }
+  
+    .bottom {
+        display: block;
+        padding: 21px 0px 21px 19px;
+    }
+  
+    .img {
+        position: absolute;
+        top: 76px;
+        left: 175px;
+        /* transition: opacity 0.1s ease-in-out, visibility 0.3s ease-in-out; */
+    }
+  
+    nav img {
+        margin: 16px 88px 15px 88px;
+    }
+  
+    .menu {
+        display: none;
+        flex-direction: column;
+        background: #E1EDE6;
+        width: 100%;
+    }
+  
+    .menu li {
+        margin-top: 20px;     
+        width: 100px;
+    }
+  
+    .menu-toggle:checked + .burger + .menu {
+        display: flex;
+    }
+
+    .menu-toggle:checked + .burger span:nth-child(1) {
+        transform: rotate(45deg) translateY(10px);
+    }
+  
+    .menu-toggle:checked + .burger span:nth-child(2) {
+        opacity: 0 !important;
+    }
+  
+    .menu-toggle:checked + .burger span:nth-child(3) {
+        transform: rotate(-45deg) translateY(-10px);
+    }
+  
+    .menu-toggle:checked + .burger + .menu + .img {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+    
