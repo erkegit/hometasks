@@ -3,11 +3,14 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 header {
+  position: sticky;
+  top: 0.1px;
   background: #E1EDE6;
-  padding: 33px 165px 33px 165px;
+  padding: 33px 165px 32px 165px;
 }
 
 nav {
@@ -46,7 +49,7 @@ nav {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 15px;
+  gap: 58px;
 }
 
 .menu li {
@@ -61,6 +64,154 @@ nav {
 .menu-toggle {
   display: none;
 }
+
+.hero{
+  padding: 0px 165px;
+  display: flex;
+  gap: 30px;
+}
+
+.content{
+  width: 540px;
+  height: 331px;
+  margin: 145px 0px 144px 0px;
+}
+
+.content h1{
+  color: #2C2D35;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 66px;
+}
+
+.content span{
+  color: #598D66;
+}
+
+.content p{
+  color: #86928B;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.content button{
+  width: 255px;
+  height: 65px;
+  padding: 20px 60px 20px 60px;
+  border: 1px solid #598D66;
+  color: #598D66;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.48px;
+  background: none;
+  margin-top: 60px;
+}
+
+.products{
+  padding: 70px 165px;
+  display: block; 
+}
+
+.title{
+  display: flex;
+  gap: 545px;
+}
+
+.title h1{
+  color: #2C2D35;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 44px;
+}
+
+.countryies{
+  margin-top: 27px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.countryies button{
+  width: 126px;
+  height: 43px;
+  padding: 10px 20px 10px 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.48px;
+  border: none;
+  border-radius: 20px;
+  background-color: #D4E8D9;
+  color: #2C2D35;
+}
+
+.countryies button:nth-child(1){
+  background-color: #376B44;
+  color: #F4F6F5;
+}
+
+.countryies button:active{
+  background-color: #376B44;
+  color: #F4F6F5;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card{
+  display: block;
+  width: 350px;
+  height: 730px;
+  padding: 20px 20px 30px 20px;
+  background-color: #E1EDE6;
+}
+
+.card span{
+  color: #86928B;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.13px;
+}
+
+.card h1{
+  color: #2C2D35;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35.22px;
+}
+
+.card h3{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.13px;
+  color: #2C2D35;
+}
+
+.card h4{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.18px;
+  color:#598D66;
+  margin-top: 30px;
+}
+
+.card button{
+  width: 310px;
+  height: 65px;
+  padding: 20px 60px 20px 60px;
+  border: 1px solid #598D66;
+  color: #598D66;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.48px;
+  background: none;
+  margin-top: 20px;
+}
+
+
 
 @media (max-width: 320px) {
     header {
@@ -127,4 +278,3 @@ nav {
     }
 }
 
-    
