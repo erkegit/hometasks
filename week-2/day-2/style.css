@@ -58,6 +58,9 @@ nav {
 
 .menu a {
   color: #2C2D35;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.48px;
   text-decoration: none;
 }
 
@@ -211,7 +214,43 @@ nav {
   margin-top: 20px;
 }
 
+.news{
+  height: 574px;
+  background: url(./assets/image/Rectangle.png) no-repeat;
+}
 
+.content2{
+  padding: 70px 754px 70px 165px;
+}
+
+.title2{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.title2 h1{
+  color: #F4F6F5;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.title2 img{
+  width: 80px;
+  height: 80px;
+}
+
+.subtitle{
+  display: block;
+}
+
+.subtitle p{
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
 
 @media (max-width: 320px) {
     header {
