@@ -1,9 +1,13 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    user-select: none;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
 }
 
 header {
@@ -112,13 +116,15 @@ nav {
 }
 
 .products{
+  margin-top: 100px;
   padding: 70px 165px;
   display: block; 
 }
 
 .title{
   display: flex;
-  gap: 545px;
+  flex-wrap: wrap;
+  gap: 545px auto;
 }
 
 .title h1{
@@ -215,12 +221,14 @@ nav {
 }
 
 .news{
-  height: 574px;
-  background: url(./assets/image/Rectangle.png) no-repeat;
+  height: 574px auto !important;
+  background: url(./assets/image/Rectangle\ \(4\).png) no-repeat;
+  padding: 70px 754px 70px 165px;
 }
 
 .content2{
-  padding: 70px 754px 70px 165px;
+  background: url(./assets/image/Rectangle\ \(5\).png) repeat;
+ display: block;
 }
 
 .title2{
@@ -250,6 +258,132 @@ nav {
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
+}
+
+.content2 button{
+  width: 257px;
+  height: 65px;
+  padding: 20px 60px;
+  border: none;
+  background-color: #EEDB6D;
+  color: #2C2D35;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 60px;
+  line-height: 23.48px;
+}
+
+.about{
+  padding: 70px 165px;
+  display: flex;
+  gap: 30px;
+}
+
+.content3{
+  padding-top: 124px;
+  padding-bottom: 40px;
+  width: 635px;
+}
+
+.content3 h1{
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 44px;
+  color: #2C2D35;
+}
+
+.content3 p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #2C2D35;
+}
+
+.avatars{
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 165px;
+    background-color: #EFF5EF;
+    color: #3A5441;
+}
+
+footer hr{
+  visibility: hidden;
+  position: absolute;
+}
+
+.ps{
+  display: block;
+  margin-top: 35px;
+}
+
+.ps p{
+  margin: 0px;
+  font-weight: 500;
+}
+
+.ps p:nth-child(1){
+  font-size: 20px;
+  line-height: 28.48px;
+  color: #2C2D35;
+}
+
+.ps p:nth-child(2){
+  font-size: 18px;
+  line-height: 21.13px;
+  color: #86928B;
+}
+
+.colums{
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-column h1 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23.48px;
+    color: #2C2D35;
+}
+
+.footer-column a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #86928B;
+    text-decoration: none;
+}
+
+.footer-logo {
+    display: block;
+}
+
+.footer-right{
+  margin-bottom: 55px;
+}
+
+.social-icons{
+  display: flex;
+  gap: 30px;
+}
+
+.footer-right small{
+  color: #86928B;
 }
 
 @media (max-width: 320px) {
@@ -315,5 +449,21 @@ nav {
         opacity: 0;
         visibility: hidden;
     }
+
+    .hero{
+      padding: 10px 20px;
+      width: 290px;
+    }
+
+    .hero img{
+      visibility: hidden;
+      position: absolute;
+    }
+
+    .content{
+      width: 290px;
+    }
+
+
 }
 
