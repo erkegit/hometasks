@@ -125,6 +125,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   gap: 545px auto;
+  margin-bottom: 10px;
 }
 
 .title h1{
@@ -307,12 +308,12 @@ nav {
 
 
 footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 23px 165px;
-    background-color: #EFF5EF;
-    color: #3A5441;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px 165px;
+  background-color: #EFF5EF;
+  color: #3A5441;
 }
 
 footer hr{
@@ -414,7 +415,7 @@ footer hr{
     }
   
     nav img {
-        margin: 16px 88px 15px 88px;
+        margin: 16px 0px 15px 88px;
     }
   
     .menu {
@@ -464,6 +465,32 @@ footer hr{
       width: 290px;
     }
 
+    .products{
+      padding: 70px 5px;
+    }
 
+    .card{
+      width: 290px !important;
+
+    }
+
+    footer hr{
+      visibility: visible;
+    }
+
+    .content3{
+      width: 290px;
+    }
+
+    .about .img{
+      visibility: hidden;
+      position: absolute;
+
+    }
+
+    .footer{
+      padding: 23px 20px !important;
+      
+    }
 }
 
