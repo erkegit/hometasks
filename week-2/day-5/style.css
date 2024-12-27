@@ -1,0 +1,83 @@
+.p{
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p1::before{
+    content: "hello";
+    font-size: 20px;
+    color: red;
+}
+
+.p2::before{
+    content: "world";
+    font-size: 20px;
+    color: blue;
+}
+
+.p3::before{
+    content: "PC";
+    font-size: 40px;
+    color: green;
+}
+
+.hs{
+    font-size: 20px;
+    color: red;
+}
+
+h1::after{
+    content: "🤙";
+    box-shadow: 10px 10px 5px yellowgreen;
+}
+
+h2::after{
+    content: "🤘";
+    box-shadow: 10px 10px 10px orange;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .content-block {
+    position: relative;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content-block::before,
+  .content-block::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color: #ff5733;
+    left: 10%;
+  }
+  
+  .content-block::before {
+    top: 10px; 
+  }
+  
+  .content-block::after {
+    bottom: 10px; 
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+  }
+  
