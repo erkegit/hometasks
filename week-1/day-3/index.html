@@ -10,218 +10,214 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="./assets/images/logo.svg" alt="">
+    <header class="header">
+        <nav class="header__nav">
+            <div class="header__logo">
+                <img src="./assets/images/logo.svg" alt="" class="header__logo-img">
             </div>
-            <ul class="menu">
-                <li><a href="#H">Home</a></li>
-                <li><a href="#E">Episodes</a></li>
-                <li><a href="#A">About</a></li>
-                <li><a href="#C">Contact</a></li>
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#H" class="header__nav-link">Home</a></li>
+                <li class="header__nav-item"><a href="#E" class="header__nav-link">Episodes</a></li>
+                <li class="header__nav-item"><a href="#A" class="header__nav-link">About</a></li>
+                <li class="header__nav-item"><a href="#C" class="header__nav-link">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <img src="./assets/images/line.svg" alt="" style="position: absolute; top: 700px; left: 797px;">
+    <img src="./assets/images/line.svg" alt="" class="line">
     <section class="home" id="H">
-        <div class="image">
-            <img src="./assets/images/Frame.png" alt="">
+        <div class="home__image">
+            <img src="./assets/images/Frame.png" alt="" class="home__image-img">
         </div>
-        <div class="content">
-            <h2>Take your <br> podcast to the <span>next <b>level</b></span></h2>
-            <p>Listen on</p>
-            <div class="platforms">
-                <img src="./assets/images/Vector.svg" alt="">
-                <img src="./assets/images/Group.svg" alt="">
-                <img src="./assets/images/Group (1).svg" alt="">
-                <img src="./assets/images/IMAGE.svg" alt="">
-                <img src="./assets/images/IMAGE (1).svg" alt="">
+        <div class="home__content">
+            <h2 class="home__content-title">Take your <br> podcast to the <span class="home__content-title-span">next <b>level</b></span></h2>
+            <p class="home__content-p">Listen on</p>
+            <div class="home__content-platforms">
+                <img class="home__content-platforms-img" src="./assets/images/Vector.svg" alt="">
+                <img class="home__content-platforms-img" src="./assets/images/Group.svg" alt="">
+                <img class="home__content-platforms-img" src="./assets/images/Group (1).svg" alt="">
+                <img class="home__content-platforms-img" src="./assets/images/IMAGE.svg" alt="">
+                <img class="home__content-platforms-img" src="./assets/images/IMAGE (1).svg" alt="">
             </div>
         </div>
     </section>
     <section class="episodes" id="E">
-        <div class="title">
-            <h2>Latest episodes</h2>
-            <button>View all episodes</button>
+        <div class="episodes__title">
+            <h2 class="episodes__title-heading">Latest episodes</h2>
+            <button class="episodes__title-button">View all episodes</button>
         </div>
-        <div class="episodes-list">
+        <div class="episodes__list">
             <div class="episode">
-                <div class="image1">
-                    <img src="./assets/images/Frame2.png" alt="">
+                <div class="episode__image">
+                    <img src="./assets/images/Frame2.png" alt="" class="episode__image-img">
                 </div>
-                <div class="content">
-                    <span>Gear</span>
-                    <p class="epis-num">Episode 3</p>
-                    <h3>Should you get <br> outboard audio gear?</h3>
-                    <p class="epis-desc">Is hardware really worth it when it comes to podcasting? The answer is...it<br>
+                <div class="episode__content">
+                    <span class="episode__content-category">Gear</span>
+                    <p class="episode__content-number">Episode 3</p>
+                    <h3 class="episode__content-title">Should you get <br> outboard audio gear?</h3>
+                    <p class="episode__content-desc">Is hardware really worth it when it comes to podcasting? The answer is...it<br>
                                         depends. Here’s our reasons on why you might want to consider picking<br> 
                                         something up.</p>
-                    <button>View Episode Details</button>
+                    <button class="episode__content-button">View Episode Details</button>
                 </div>
             </div>
             <div class="episode">
-                <div class="image1">
-                    <img src="./assets/images/Frame3.png" alt="">
+                <div class="episode__image">
+                    <img src="./assets/images/Frame3.png" alt="" class="episode__image-img">
                 </div>
-                <div class="content">
-                    <span>Tips & Tricks</span>
-                    <p class="epis-num">Episode 2</p>
-                    <h3>Mic tricks to take <br> you to the next level</h3>
-                    <p class="epis-desc">Stop rolling with those default settings on your mic. These small tweaks will <br>
+                <div class="episode__content">
+                    <span class="episode__content-category">Tips & Tricks</span>
+                    <p class="episode__content-number">Episode 2</p>
+                    <h3 class="episode__content-title">Mic tricks to take <br> you to the next level</h3>
+                    <p class="episode__content-desc">Stop rolling with those default settings on your mic. These small tweaks will <br>
                                         take you from sounding good to great.
                                         </p>
-                    <button>View Episode Details</button>
+                    <button class="episode__content-button">View Episode Details</button>
                 </div>
             </div>
             <div class="episode">
-                <div class="image1">
-                    <img src="./assets/images/Frame4.png" alt="">
+                <div class="episode__image">
+                    <img src="./assets/images/Frame4.png" alt="" class="episode__image-img">
                 </div>
-                <div class="content">
-                    <span>Gear</span>
-                    <p class="epis-num">Episode 1</p>
-                    <h3>The best microphone <br> under $200</h3>
-                    <p class="epis-desc">With so many microphones on the market, how are you supposed to know <br>
+                <div class="episode__content">
+                    <span class="episode__content-category">Gear</span>
+                    <p class="episode__content-number">Episode 1</p>
+                    <h3 class="episode__content-title">The best microphone <br> under $200</h3>
+                    <p class="episode__content-desc">With so many microphones on the market, how are you supposed to know <br>
                                         what’s the best? Take a look at our top picks.</p>
-                    <button>View Episode Details</button>
-
+                    <button class="episode__content-button">View Episode Details</button>
                 </div>
             </div>
         </div>
     </section>
     <section class="about" id="A">
-        <div class="left">
-            <button>→</button>
-            <p>Meet your host</p>
-            <h2>Jacob Paulaner</h2>
-            <div class="description">
-                <p>Jacob has a background in audio engineering, and has <br>
+        <div class="about__left">
+            <button class="about__left-button">→</button>
+            <p class="about__left-text">Meet your host</p>
+            <h2 class="about__left-heading">Jacob Paulaner</h2>
+            <div class="about__left-description">
+                <p class="about__left-description-text">Jacob has a background in audio engineering, and has <br>
                         been podcasting since the early days.</p>
-                <p>He’s here to help you level up your game by sharing  <br>
+                <p class="about__left-description-text">He’s here to help you level up your game by sharing  <br>
                     everything he’s learned along the way.</p>
             </div>
         </div>
-        <div class="right">
-            <img src="./assets/images/image2.png" alt="">
+        <div class="about__right">
+            <img src="./assets/images/image2.png" alt="" class="about__right-img">
         </div>
     </section>
-    <img src="./assets/images/vectors.svg" alt="" style="position: absolute; top: 4534px; left: 16px;">
+    <img src="./assets/images/vectors.svg" alt="" class="vectors">
     <section class="contact" id="C">
-        <div class="subs">
-            <div class="left1">
-                <p>Email Newsletter</p>
-                <h2>Subscribe <br> for updates</h2>
+        <div class="contact__subs">
+            <div class="contact__subs-left">
+                <p class="contact__subs-left-text">Email Newsletter</p>
+                <h2 class="contact__subs-left-heading">Subscribe <br> for updates</h2>
             </div>
-            <div class="right1">
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <button type="submit"><h1>Submit</h1></button>
+            <div class="contact__subs-right">
+                <input type="text" placeholder="Name" class="contact__subs-right-input">
+                <input type="email" placeholder="Email" class="contact__subs-right-input">
+                <button type="submit" class="contact__subs-right-button"><h1 class="contact__subs-right-button-text">Submit</h1></button>
             </div>
         </div>
-        <div class="raites">
-            <div class="raite">
-                <div class="stars">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
+        <div class="contact__raites">
+            <div class="contact__raite">
+                <div class="contact__raite-stars">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
                 </div>
-                <h1>I can’t recommend <br> this podcast <br> enough</h1>
-                <h5>Betty Lacey</h5>
+                <h1 class="contact__raite-heading">I can’t recommend <br> this podcast <br> enough</h1>
+                <h5 class="contact__raite-author">Betty Lacey</h5>
             </div>
-            <div class="raite">
-                <div class="stars">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
+            <div class="contact__raite">
+                <div class="contact__raite-stars">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
                 </div>
-                <h1>Jacob is the best <br> in the business</h1>
-                <h5>Adam Driver</h5>
+                <h1 class="contact__raite-heading">Jacob is the best <br> in the business</h1>
+                <h5 class="contact__raite-author">Adam Driver</h5>
             </div>
-            <div class="raite">
-                <div class="stars">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
+            <div class="contact__raite">
+                <div class="contact__raite-stars">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
                 </div>
-                <h1>A wealth of audio <br> knowledge</h1>
-                <h5>Marcus Brown</h5>
+                <h1 class="contact__raite-heading">A wealth of audio <br> knowledge</h1>
+                <h5 class="contact__raite-author">Marcus Brown</h5>
             </div>
-            <div class="raite">
-                <div class="stars">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
+            <div class="contact__raite">
+                <div class="contact__raite-stars">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
                 </div>
-                <h1>Every episode is a <br> gem!</h1>
-                <h5>Jessica Knowl</h5>
+                <h1 class="contact__raite-heading">Every episode is a <br> gem!</h1>
+                <h5 class="contact__raite-author">Jessica Knowl</h5>
             </div>
-            <div class="raite">
-                <div class="stars">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
+            <div class="contact__raite">
+                <div class="contact__raite-stars">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
                 </div>
-                <h1>Whoa whoa, let me <br> take some notes!</h1>
-                <h5>Scott Adams</h5>
+                <h1 class="contact__raite-heading">Whoa whoa, let me <br> take some notes!</h1>
+                <h5 class="contact__raite-author">Scott Adams</h5>
             </div>
-            <div class="raite">
-                <div class="stars">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
-                    <img src="./assets/images/star.svg" alt="">
+            <div class="contact__raite">
+                <div class="contact__raite-stars">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
+                    <img src="./assets/images/star.svg" alt="" class="contact__raite-stars-img">
                 </div>
-                <h1>I’ve upped my <br> game considerably <br> since I started <br> listening</h1>
-                <h5>Steven Blast</h5>
+                <h1 class="contact__raite-heading">I’ve upped my <br> game considerably <br> since I started <br> listening</h1>
+                <h5 class="contact__raite-author">Steven Blast</h5>
             </div>
         </div>
     </section>
-    <footer>
-        <div class="left2">
-            <img src="./assets/images/logo.svg" alt="">
-            <div class="social">
-                <img src="./assets/images/insta.svg" alt="">
-                <img src="./assets/images/x.svg" alt="">
-                <img src="./assets/images/face.svg" alt="">
+    <footer class="footer">
+        <div class="footer__left">
+            <img src="./assets/images/logo.svg" alt="" class="footer__left-logo">
+            <div class="footer__left-social">
+                <img src="./assets/images/insta.svg" alt="" class="footer__left-social-img">
+                <img src="./assets/images/x.svg" alt="" class="footer__left-social-img">
+                <img src="./assets/images/face.svg" alt="" class="footer__left-social-img">
             </div>
         </div>
-        <div class="nav">
-            <ul class="menu1">
-                <li><a href="#H">Home</a></li>
-                <li><a href="#E">Episodes</a></li>
-                <li><a href="#A">About</a></li>
-                <li><a href="#C">Contact</a></li>
+        <div class="footer__nav">
+            <ul class="footer__nav-menu">
+                <li class="footer__nav-item"><a href="#H" class="footer__nav-link">Home</a></li>
+                <li class="footer__nav-item"><a href="#E" class="footer__nav-link">Episodes</a></li>
+                <li class="footer__nav-item"><a href="#A" class="footer__nav-link">About</a></li>
+                <li class="footer__nav-item"><a href="#C" class="footer__nav-link">Contact</a></li>
             </ul>
-            <ul class="menu1">
-                <li><a href="">Style Guide</a></li>
-                <li><a href="">Instructions</a></li>
-                <li><a href="">Changelog</a></li>
-                <li><a href="">Credit</a></li>
-                <li><a href="">Powered by Webflow</a></li>
-                <li><a href="">Licenses</a></li>
-
+            <ul class="footer__nav-menu">
+                <li class="footer__nav-item"><a href="" class="footer__nav-link">Style Guide</a></li>
+                <li class="footer__nav-item"><a href="" class="footer__nav-link">Instructions</a></li>
+                <li class="footer__nav-item"><a href="" class="footer__nav-link">Changelog</a></li>
+                <li class="footer__nav-item"><a href="" class="footer__nav-link">Credit</a></li>
+                <li class="footer__nav-item"><a href="" class="footer__nav-link">Powered by Webflow</a></li>
+                <li class="footer__nav-item"><a href="" class="footer__nav-link">Licenses</a></li>
             </ul>
         </div>
-        <div>
-            <div class="platforms">
-                <img src="./assets/images/Vector.svg" alt="">
-                <img src="./assets/images/Group.svg" alt="">
-                <img src="./assets/images/Group (1).svg" alt="">
-                <img src="./assets/images/IMAGE.svg" alt="">
-                <img src="./assets/images/IMAGE (1).svg" alt="">
-            </div>
+        <div class="footer__platforms">
+            <img src="./assets/images/Vector.svg" alt="" class="footer__platforms-img">
+            <img src="./assets/images/Group.svg" alt="" class="footer__platforms-img">
+            <img src="./assets/images/Group (1).svg" alt="" class="footer__platforms-img">
+            <img src="./assets/images/IMAGE.svg" alt="" class="footer__platforms-img">
+            <img src="./assets/images/IMAGE (1).svg" alt="" class="footer__platforms-img">
         </div>
     </footer>
 </body>

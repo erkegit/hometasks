@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -8,11 +8,11 @@ html{
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #191919;
 }
 
-header{
+.header {
     position: sticky;
     top: 0.1px;
     background-color: #191919;
@@ -20,24 +20,24 @@ header{
     z-index: 234567;
 }
 
-nav{
+.header__nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logo{
+.header__logo-img {
     width: 160px;
     height: 33px;
 }
 
-.menu{
+.header__nav-list {
     display: flex;
     gap: 40px;
     list-style-type: none;
 }
 
-.menu a {
+.header__nav-link {
     color: white !important;
     text-decoration: none;
     font-weight: 400;
@@ -46,26 +46,26 @@ nav{
     font-family: "DM Sans", sans-serif;
 }
 
-.menu a:hover {
+.header__nav-link:hover {
     color: #118DA8 !important;
 }
 
-.home{
+.home {
     display: flex;
     gap: 100px;
     padding: 50px;
 }
 
-.image{
+.home__image {
     width: 650px !important;
     height: 873.44px;
 }
 
-.content{
+.home__content {
     max-width: 500px !important;
 }
 
-.content h2{
+.home__content-title {
     font-family: "DM Sans", sans-serif;
     font-size: 70px;
     font-weight: 400;
@@ -75,34 +75,33 @@ nav{
     margin-bottom: 80px;
 }
 
-.content h2 span{
+.home__content-title-span {
     font-size: 75px !important;
     font-weight: 400;
 }
 
-.content > p{
+.home__content-p {
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
     color: white;
 }
 
-.platforms{
+.home__content-platforms {
     margin-top: 20px;
 }
 
-.platforms img {
+.home__content-platforms-img {
     width: 32px;
     height: 32px;
     margin-right: 15px;
-
 }
 
-.episodes{
+.episodes {
     padding: 100px 73px 160px 73px;
 }
 
-.title{
+.episodes__title {
     display: flex;
     gap: 609px;
     justify-content: space-between;
@@ -110,16 +109,16 @@ nav{
     height: 99px;
 }
 
-.title h2 {
+.episodes__title-heading {
     font-weight: 400;
     font-size: 64px;
     line-height: 79.2px;
-    font-family: "DM Sans",sans-serif;
+    font-family: "DM Sans", sans-serif;
     color: white;
     letter-spacing: 2.88px;
 }
 
-.title button{
+.episodes__title-button {
     padding: 12px 15px 12px 20px;
     height: 51px;
     margin-top: 31px;
@@ -130,12 +129,12 @@ nav{
     border: none;
 }
 
-.episodes-list{
+.episodes__list {
     display: block;
     padding: 0;
 }
 
-.episode{
+.episode {
     display: flex;
     gap: 60px;
     padding: 40px;
@@ -146,11 +145,11 @@ nav{
     margin-bottom: 60px;
 }
 
-.content{
+.episode__content {
     display: block;
 }
 
-.episode span{
+.episode__content-category {
     background-color: #191919;
     border-radius: 6px;
     padding: 5px 16px 5px 16px;
@@ -161,7 +160,7 @@ nav{
     font-family: "DM Sans", sans-serif;
 }
 
-.episode  .epis-num{
+.episode__content-number {
     margin-top: 43px;
     font-weight: 400;
     font-size: 17px;
@@ -170,7 +169,7 @@ nav{
     color: #118DA8;
 }
 
-.episode h3{
+.episode__content-title {
     font-weight: 400;
     font-size: 64px;
     line-height: 70px;
@@ -181,7 +180,7 @@ nav{
     width: max-content;
 }
 
-.episode .epis-desc{
+.episode__content-desc {
     margin-top: 10px;
     font-weight: 400;
     font-size: 22px;
@@ -191,7 +190,7 @@ nav{
     opacity: 70%;
 }
 
-.episode button{
+.episode__content-button {
     height: 51px;
     border-radius: 6px;
     margin-top: 41px;
@@ -206,19 +205,18 @@ nav{
     font-family: "DM Sans", sans-serif;
 }
 
-.about{
+.about {
     padding: 50px;
     display: flex;
     gap: 120px;
 }
 
-.left{
+.about__left {
     display: block;
     margin-top: 148px;
-    
 }
 
-.left button{
+.about__left-button {
     width: 112px;
     height: 112px;
     background-color: #118DA8;
@@ -232,7 +230,7 @@ nav{
     margin-bottom: 20px;
 }
 
-.left > p{
+.about__left-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
@@ -240,7 +238,7 @@ nav{
     color: #118DA8;
 }
 
-.left h2{
+.about__left-heading {
     font-weight: 400;
     font-size: 65px;
     line-height: 79.2px;
@@ -249,11 +247,11 @@ nav{
     color: #fff;
 }
 
-.description{
+.about__left-description {
     display: block;
 }
 
-.description p{
+.about__left-description-text {
     font-weight: 400;
     font-size: 22px;
     line-height: 33px;
@@ -263,12 +261,21 @@ nav{
     margin-bottom: 33px;
 }
 
-.contact{
+.about__right {
+    display: block;
+}
+
+.about__right-img {
+    width: 100%;
+    height: auto;
+}
+
+.contact {
     display: block;
     padding: 100px 50px 100px 50px;
 }
 
-.subs{
+.contact__subs {
     width: 1326px;
     height: 387px;
     display: flex;
@@ -278,21 +285,20 @@ nav{
     padding: 59px 60px 36px 60px;
 }
 
-.left1{
+.contact__subs-left {
     display: block;
     width: 642px;
-
 }
 
-.left1 p{
+.contact__subs-left-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
     font-family: "DM Sans", sans-serif;
-    color:#118DA8;   
+    color: #118DA8;
 }
 
-.left1 h2{
+.contact__subs-left-heading {
     font-weight: 400;
     font-size: 72px;
     line-height: 79.2px;
@@ -301,13 +307,13 @@ nav{
     color: white;
 }
 
-.right1{
+.contact__subs-right {
     display: flex;
     width: 522px;
     flex-wrap: wrap;
 }
 
-.right1 input{
+.contact__subs-right-input {
     flex: 0 0 522px;
     height: 82px;
     background-color: #191919;
@@ -317,7 +323,7 @@ nav{
     padding-left: 19px;
 }
 
-.right1 input::placeholder{
+.contact__subs-right-input::placeholder {
     font-weight: 400;
     font-size: 24px;
     line-height: 28.8px;
@@ -326,7 +332,7 @@ nav{
     opacity: 70%;
 }
 
-.right1 button{
+.contact__subs-right-button {
     width: 87px;
     height: 48px;
     border: none;
@@ -334,7 +340,7 @@ nav{
     border-radius: 6px;
 }
 
-.right1 button h1{
+.contact__subs-right-button-text {
     font-weight: 700;
     font-size: 15px;
     line-height: 28.8px;
@@ -343,7 +349,7 @@ nav{
     opacity: 70%;
 }
 
-.raites{
+.contact__raites {
     display: flex;
     gap: 100px 50px 100px 50px;
     flex-wrap: wrap;
@@ -351,7 +357,7 @@ nav{
     margin-top: 200px;
 }
 
-.raite{
+.contact__raite {
     display: block;
     flex: 0 0 423px;
     height: 321px;
@@ -360,7 +366,7 @@ nav{
     padding: 59px 60px 36px 60px;
 }
 
-.raite h1{
+.contact__raite-heading {
     font-weight: 400;
     font-size: 36px;
     line-height: 43.2px;
@@ -369,11 +375,11 @@ nav{
     margin-top: 21px;
 }
 
-.raite:nth-child(6) h1{
+.contact__raite:nth-child(6) .contact__raite-heading {
     margin-top: 8px;
 }
 
-.raite h5{
+.contact__raite-author {
     font-weight: 400;
     font-size: 24px;
     line-height: 28.8px;
@@ -383,50 +389,64 @@ nav{
     margin-top: 19px;
 }
 
-.raite:nth-child(6) h5{
+.contact__raite:nth-child(6) .contact__raite-author {
     margin-top: 10px;
 }
 
-footer{
+.contact__raite-stars {
+    display: flex;
+    gap: 10px;
+}
+
+.contact__raite-stars-img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer {
     display: flex;
     margin-top: 90px;
     gap: 16px;
     padding: 99.88px 50px 116.12px;
 }
 
-.left2{
+.footer__left {
     display: block;
     width: 447.14px !important;
     height: 222px !important;
-
 }
 
-.left2 img{
+.footer__left-logo {
     margin-bottom: 23px;
 }
 
-.social{
+.footer__left-social {
     display: flex;
     gap: 10px;
 }
 
-.nav{
+.footer__left-social-img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer__nav {
     display: flex;
     gap: 16px;
 }
 
-.menu1{
+.footer__nav-menu {
     display: block !important;
     list-style-type: none;
     width: 178.84px;
     height: 222px;
 }
 
-.menu1 li {
+.footer__nav-item {
     margin-bottom: 10px;
 }
 
-.menu1 a {
+.footer__nav-link {
     color: white !important;
     text-decoration: none;
     font-weight: 400;
@@ -435,6 +455,16 @@ footer{
     font-family: "DM Sans", sans-serif;
 }
 
-.menu1 a:hover {
+.footer__nav-link:hover {
     color: #118DA8 !important;
+}
+
+.footer__platforms {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__platforms-img {
+    width: 32px;
+    height: 32px;
 }
