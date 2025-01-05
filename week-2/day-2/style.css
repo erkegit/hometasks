@@ -1,18 +1,16 @@
 html{
   scroll-behavior: smooth;
+  
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family:"Raleway";
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   user-select: none;
 }
 
 header {
-  position: sticky;
-  top: 0.1px;
   background: #E1EDE6;
   padding: 33px 165px 32px 165px;
 }
@@ -179,6 +177,8 @@ nav {
   background-color: #E1EDE6;
 }
 
+
+
 .card span{
   color: #86928B;
   font-weight: 500;
@@ -209,7 +209,7 @@ nav {
 }
 
 .card button{
-  width: 310px;
+  width: 310px auto;
   height: 65px;
   padding: 20px 60px 20px 60px;
   border: 1px solid #598D66;
@@ -270,7 +270,7 @@ nav {
   color: #2C2D35;
   font-weight: 500;
   font-size: 20px;
-  margin-top: 60px;
+  margin-top: 60px auto;
   line-height: 23.48px;
 }
 
@@ -319,6 +319,7 @@ footer {
 footer hr{
   visibility: hidden;
   position: absolute;
+  color: #C3D1C6;
 }
 
 .ps{
@@ -332,13 +333,13 @@ footer hr{
 }
 
 .ps p:nth-child(1){
-  font-size: 20px;
+  font-size: 16px;
   line-height: 28.48px;
   color: #2C2D35;
 }
 
 .ps p:nth-child(2){
-  font-size: 18px;
+  font-size: 16px;
   line-height: 21.13px;
   color: #86928B;
 }
@@ -346,6 +347,7 @@ footer hr{
 .colums{
   display: flex;
   gap: 60px;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -383,8 +385,15 @@ footer hr{
   gap: 30px;
 }
 
-.footer-right small{
+.smalls{
+  display: block;
+}
+
+.footer-right .small{
   color: #86928B;
+  font-weight: 500;
+  font-size: 13px;
+  margin: 0;
 }
 
 @media (max-width: 320px) {
@@ -407,7 +416,7 @@ footer hr{
         padding: 21px 0px 21px 19px;
     }
   
-    .img {
+    nav .img {
         position: absolute;
         top: 76px;
         left: 175px;
@@ -459,6 +468,7 @@ footer hr{
     .hero img{
       visibility: hidden;
       position: absolute;
+      display: none;
     }
 
     .content{
@@ -470,27 +480,100 @@ footer hr{
     }
 
     .card{
-      width: 290px !important;
+      width: 285px !important;
+      padding: 20px 15px 30px 15px;
+    }
 
+    .card img{
+      width: 260px;
+      height: auto;
     }
 
     footer hr{
       visibility: visible;
+      position: relative;
+      top: -35px;
+      width: 290px;
     }
 
     .content3{
       width: 290px;
     }
 
-    .about .img{
-      visibility: hidden;
-      position: absolute;
+    .news{
+      background: url(./assets/image/Rectangle\ \(7\).png) no-repeat;
+      padding: 70px 15px 70px 15px;
+    }
+
+    .content2{
+      background: none;
+    }
+
+    .title2 h1{
+      color: #F4F6F5;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 24px;
+    }    
+
+    .title2 img{
+      width: 55px;
+      height: 55px;
+    }    
+
+    .about{
+      padding: 70px 15px;
+      display: block;
+    }
+
+    .about img{
+      width: 290px;
+      height: auto;
+    }
+
+    footer{
+      padding: 23px 20px;
+      align-content: center;
+      align-items: normal;
 
     }
 
-    .footer{
-      padding: 23px 20px !important;
-      
+    .colums{
+      gap: 10px;
+    }
+
+   .footer-logo{
+      width: 140px;
+    } 
+
+    .footer-column:nth-child(1){
+      position: relative;
+      top: -60px;
+      left: 165px;
+    }
+
+    .footer-column:nth-child(2){
+      position: relative;
+      top: 95px;
+      left: -150px;
+    }
+
+    .footer-column:nth-child(3){
+      position: relative;
+      top: -60px;
+      left: 150px;
+    }
+
+    .footer-right{
+      margin-left: 60px;
+    }
+
+    .smalls{
+      margin-top: 10px;
+      display: flex;
+      gap: 2px;
+      position: relative;
+      left: -20px;
     }
 }
 
