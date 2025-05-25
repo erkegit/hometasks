@@ -147,7 +147,7 @@ body {
 
 .episode {
     display: flex;
-    gap: 60px;
+    gap: 53px;
     padding: 40px;
     background-color: #000;
     border-radius: 26px;
@@ -172,7 +172,7 @@ body {
 }
 
 .episode__content-number {
-    margin-top: 43px;
+    margin-top: 48px;
     font-weight: 400;
     font-size: 17px;
     line-height: 27px;
@@ -186,7 +186,7 @@ body {
     line-height: 70px;
     font-family: "DM Sans", sans-serif;
     color: white;
-    margin-top: 26px;
+    margin-top: 18px;
     letter-spacing: 2.56px;
     width: max-content;
 }
@@ -293,7 +293,7 @@ body {
     display: flex;
     gap: 76px;
     background-color: #000;
-    border-radius: 26px;
+    border-radius: 32px;
     padding: 59px 60px 36px 60px;
 }
 
@@ -333,6 +333,7 @@ body {
     border: none;
     border-radius: 6px;
     padding-left: 19px;
+    padding-top: 8px;
 }
 
 .contact__subs-right-input::placeholder {
@@ -355,6 +356,7 @@ body {
 .contact__subs-right-button-text {
     font-weight: 700;
     font-size: 15px;
+    font-style: normal;
     line-height: 28.8px;
     font-family: "DM Sans", sans-serif;
     color: white;
